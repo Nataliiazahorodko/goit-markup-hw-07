@@ -26,29 +26,29 @@
   <body>
     <!-- Шапка сайта -->
     <header class="header">
-      <div class="container header-container">
+      <div class="container header__container">
         <a class="logo link" href="index.html" lang="en"
-          >Web<span class="logo-right">Studio</span></a
+          >Web<span class="logo__right logo__right--main">Studio</span></a
         >
         <nav class="nav">
-          <ul class="nav-list">
-            <li class="nav-item"><a class="link nav-link" href="./index.html">Студия</a></li>
-            <li class="nav-item"><a class="link nav-link current" href="">Портфолио</a></li>
-            <li class="nav-item"><a class="link nav-link" href="#">Контакты</a></li>
+          <ul class="nav__list">
+            <li class="nav__item"><a class="link nav__link" href="./index.html">Студия</a></li>
+            <li class="nav__item"><a class="link nav__link current" href="">Портфолио</a></li>
+            <li class="nav__item"><a class="link nav__link" href="#">Контакты</a></li>
           </ul>
         </nav>
-        <ul class="contact-list">
-          <li class="nav-item">
-            <a class="link header-contact" href="mailto:info@devstudio.com">
-              <svg class="contact-icon" width="16" height="12">
+        <ul class="header-contact__list">
+          <li class="header-contact__item">
+            <a class="link header-contact__link" href="mailto:info@devstudio.com">
+              <svg class="header-contact-icon" width="16" height="12">
                 <use href="./images/icons.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com</a
             >
           </li>
-          <li class="nav-item">
-            <a class="link header-contact" href="tel:+380961111111">
-              <svg class="contact-icon" width="10" height="16">
+          <li class="header-contact__item">
+            <a class="link header-contact__link" href="tel:+380961111111">
+              <svg class="header-contact-icon" width="10" height="16">
                 <use href="./images/icons.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11</a
@@ -375,10 +375,9 @@
         <div class="footer-subscription">
           <h3 class="subscription-title">Подпишитесь на рассылку</h3>
           <form class="subscription-form">
-            
-              <input class="form-email" type="email" name="email" placeholder="E-mail" />
-           
-            <button class="btn hero-button" type="submit">
+            <input class="form-email" type="email" name="email" placeholder="E-mail" />
+
+            <button class="btn main__button" type="submit">
               Подписаться
               <svg class="footer-button-icon" width="24" height="24">
                 <use href="./images/icons.svg#icon-icon-send"></use>
